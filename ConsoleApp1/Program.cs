@@ -1,11 +1,13 @@
 ﻿using System;
 
-class Program
+namespace SkillFactory
 {
-    public static void Main(string[] args)
+    class Program
     {
-        double result = 5 / 2 * 3;
-        Console.ReadKey();
-
+        public static void Main(string[] args)
+        {
+            double result = 5 / 2 * 3;
+            Console.ReadKey();
+        }
     }
 }
